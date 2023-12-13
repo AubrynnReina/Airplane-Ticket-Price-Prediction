@@ -1,0 +1,163 @@
+,mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_model,param_model__hidden_layer_sizes,param_model__n_iter_no_change,param_scaler,params,split0_test_score,split1_test_score,split2_test_score,split3_test_score,split4_test_score,mean_test_score,std_test_score,rank_test_score
+0,11.324455833435058,2.0673840064216606,0.002200603485107422,0.00040018559567517087,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8902340.964986974,-9049501.027127506,-9030236.02417022,-8915428.275684912,-8766602.658998849,-8932821.790193692,101945.07534953218,33
+1,12.38715581893921,0.6072757951868575,0.0020003318786621094,3.371747880871523e-07,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-9209579.455906287,-9108630.926064681,-9376148.674039783,-9067641.26958456,-8930733.37895418,-9138546.740909899,148734.1658637157,44
+2,11.100802087783814,0.41515772105449744,0.00200042724609375,2.4314019744838644e-07,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-9043424.45544058,-8852954.55952393,-8998738.58774251,-8904297.809020404,-8826641.330844508,-8925211.348514387,83372.73131002863,32
+3,11.239696311950684,1.4106515599746072,0.0017215728759765625,0.00039232115583255736,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-9109852.359269498,-9223013.477725541,-9263419.735840721,-9073864.13788248,-8990977.855793279,-9132225.513302302,99309.50349853821,43
+4,12.580522680282593,1.505630564058613,0.001800680160522461,0.0004002589000092018,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8928380.179355092,-8866435.190826496,-9100612.494485928,-8823970.099576142,-8791361.550749714,-8902151.902998675,109304.26242405892,30
+5,18.174931812286378,3.4674787331190564,0.002401113510131836,0.0004894929107121567,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",10,30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 10, 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-9117322.601588495,-9069876.804436091,-9471674.023423767,-9220661.06011549,-9119916.758963436,-9199890.249705454,144509.18165258277,45
+6,12.452640867233276,0.7764666182436507,0.002998065948486328,0.0006278979749308973,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-9010427.916162878,-8962540.818588488,-9147511.633929724,-8865771.63679556,-8772245.771445666,-8951699.555384463,127668.47004234666,35
+7,11.487205696105956,1.6607607594893525,0.0024003028869628907,0.0004900586943177371,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-9137784.75574934,-9313519.744160492,-9190566.72868928,-9081576.249182215,-8921605.742666338,-9129010.644089531,128977.9512554404,42
+8,12.287811946868896,1.1420546267677683,0.003004598617553711,0.0016752267065707456,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-9041284.614942655,-8981025.23716611,-8990299.485306734,-8913919.428536687,-8806930.112949105,-8946691.775780257,80790.56041749498,34
+9,12.506962966918945,0.6558888644207352,0.002200937271118164,0.0003985889078620329,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-9150411.726883298,-9092432.99016949,-9271972.74392206,-8992451.402908726,-8998124.233282626,-9101078.619433241,104031.51635764915,41
+10,10.411474752426148,0.6676271637320762,0.002199411392211914,0.0003975630771631127,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8907823.331426144,-8855409.452884125,-9042494.48970594,-8872445.753673168,-8798992.457603408,-8895433.097058557,81500.52527745953,28
+11,12.628873682022094,1.9956777335909297,0.003052043914794922,0.001649028484819137,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",20,30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 20, 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-9145926.822718522,-9086188.322686592,-9211599.2934879,-9058477.61261741,-8960883.533377012,-9092615.116977487,84331.79143782084,40
+12,9.218604707717896,0.926135155341262,0.002000570297241211,0.000632711450112868,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-9009424.658879302,-8938611.191755708,-9092658.467659857,-8751368.28107295,-8818222.133817324,-8922056.946637029,124038.96811449988,31
+13,10.422474431991578,0.7878254842020631,0.0026015758514404295,0.00048780740530041453,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-9134999.598662352,-9165136.684275955,-9191031.38747067,-9028393.751416689,-8928597.154744575,-9089631.71531405,97696.83373683295,39
+14,10.56238055229187,1.3901435421211974,0.0022038936614990233,0.0003985919255129666,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8947949.613647716,-8870448.909822742,-9026956.311634142,-8773638.161213065,-8772316.750291126,-8878261.949321758,99194.70728295956,26
+15,10.674408102035523,0.8674582942058453,0.0021993160247802735,0.0003988034806285161,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-9153050.263101334,-8941974.654930782,-9112996.82281929,-9082964.935325487,-8909685.481783686,-9040134.431592118,96483.81768062402,37
+16,9.714318418502808,0.8759666809620905,0.00260310173034668,0.0008004592160161468,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-9060558.079578448,-8842325.615378078,-8991124.520656262,-8749163.760877963,-8720997.721039454,-8872833.93950604,133050.60880432863,25
+17,10.386519527435302,1.6636378351246608,0.0022006511688232424,0.00040017572074893917,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)",30,30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': 30, 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-9165444.340831444,-9072191.016801214,-9011121.667671178,-9096735.37784093,-8871939.598844666,-9043486.400397887,99003.96849015537,38
+18,4.905757284164428,0.8501404417512617,0.0024091720581054686,0.00048118439286740187,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8902464.044456152,-8787857.307663713,-8958344.66027824,-8757354.804220011,-8689286.000532491,-8819061.363430122,97958.03320223065,16
+19,5.619616317749023,2.847098204395386,0.002201557159423828,0.0003992670597027507,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-8942901.323155493,-8891733.733469382,-9082822.029737841,-91922206.96470787,-8844769.393048663,-25536886.68882385,33192755.95359975,46
+20,5.523578882217407,1.0829618263192335,0.0024024009704589843,0.0004889345920338017,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8879525.197042907,-8784674.67524761,-8957825.7199842,-8730178.140334146,-8688250.6445735,-8808090.875436474,98492.4155768394,15
+21,5.947639608383179,1.360183713773955,0.001995372772216797,9.69094540821857e-06,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-9112887.030775644,-8872651.984099584,-9016997.446384883,-8901661.240076344,-8976690.366071377,-8976177.613481566,85587.65365958029,36
+22,11.554850816726685,5.214708456758267,0.002201271057128906,0.0003998522361567376,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8136160.847802614,-8014854.079828362,-8140728.489742427,-8264315.811596677,-8736007.642074535,-8258413.3742089225,251494.59858572733,2
+23,8.154313659667968,1.611874427617327,0.0020024776458740234,0.000632948801408079,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8909604.86797681,-8978202.65266222,-8974893.709192954,-8828252.484355846,-8803383.020679822,-8898867.346973531,72516.35433281289,29
+24,5.981550931930542,2.8680201896707476,0.0021892070770263674,0.00040640130250147014,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8110591.615945584,-8783772.000669042,-8318246.453793066,-8729371.584697882,-8689950.603738345,-8526386.451768782,264730.4746480941,8
+25,5.0365711688995365,0.6938125758308418,0.0020968437194824217,0.0004891762317155339,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-8915493.626340799,-8901258.430891475,-8954781.14898765,-8852837.374068558,-8827622.112489702,-8890398.538555637,45264.86930450281,27
+26,6.036592435836792,2.4635774679092903,0.0023052215576171873,0.0004045099690019076,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8869828.355935577,-7927811.931981164,-8228075.789749073,-8726169.793316102,-8623866.595399488,-8475150.49327628,346849.5907739199,6
+27,6.409505367279053,1.2268652891777407,0.002948951721191406,0.0010009536312583338,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-8946879.447983129,-8836618.125618609,-8989630.202427018,-8810820.359547196,-8750415.814515667,-8866872.790018324,88419.3354904481,23
+28,14.849868965148925,8.587330621719802,0.002400493621826172,0.0004902911821037266,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8201237.585083029,-8785467.22685044,-8201692.7004511235,-7879256.859194466,-7923188.4783267,-8198168.569981152,323190.4332720625,1
+29,7.374422168731689,0.9667764059420166,0.002976799011230469,0.0006338114161608241,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8901676.938903822,-8836548.99717416,-8956720.659229713,-8799089.802813008,-8765615.980437137,-8851930.475711567,69187.58826661571,19
+30,5.566490745544433,2.891318489880682,0.002608633041381836,0.0004963657830632423,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8878377.888359606,-7915669.751482967,-8942275.638015965,-7947732.445958118,-8675885.214838305,-8471988.187730992,449940.2532841511,5
+31,4.7194723129272464,0.6830747598606011,0.002221965789794922,0.000441241789309562,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-8911210.615715316,-8841766.437665813,-8962625.004045429,-8806827.872843845,-8817480.925297124,-8867982.171113506,59671.52244435088,24
+32,6.113304185867309,2.554713083575119,0.003232526779174805,0.0007790051804183535,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8031575.249259083,-8484404.675984556,-8945187.574912587,-8735807.859362263,-8687830.469271814,-8576961.16575806,309556.93002873386,10
+33,8.330228424072265,2.0264424637933005,0.0034026145935058595,0.0007987804744608258,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-8904595.535752134,-8852869.533546252,-8948248.885143165,-8799002.832247565,-8815460.373360438,-8864035.432009911,55588.632556227916,22
+34,9.500246047973633,4.913261741999476,0.0033997535705566407,0.0014960128732619078,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8009661.6231685355,-8811560.188253993,-8952239.15062908,-7926836.785369279,-8683782.476178633,-8476816.044719903,424647.22165682795,7
+35,7.4931305885314945,1.289709329999536,0.0030012607574462892,0.0010941479227458092,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8916722.151333388,-8860146.627725841,-8955063.541119322,-8788102.8711492,-8792942.069489244,-8862595.452163398,66161.5932750026,21
+36,5.042598152160645,1.4834048638490944,0.0026008129119873048,0.0004900960890609991,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8875216.749044225,-7976645.222163339,-8943465.82899186,-8794995.96793151,-8707964.457229054,-8659657.645071998,350476.47343237145,12
+37,2.8118098735809327,2.10456680326011,0.0020003318786621094,5.001110306597479e-07,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-95207029.01221104,-8893767.4296574,-94735207.07696962,-8794505.984157695,-8748627.434633326,-43275827.38752581,42209317.856278844,54
+38,4.345908689498901,0.6406465825313682,0.0022005081176757813,0.0004001141020686509,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8878180.641181283,-8786564.526756266,-8956930.85679956,-8731563.246662231,-8674210.369743774,-8805489.92822862,101267.90423453925,14
+39,6.4402079582214355,3.3906446931148335,0.002817535400390625,0.0011551493643172704,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-95199405.96218105,-8871464.48099234,-8952495.543317895,-8841016.736230643,-8777014.33278064,-26128279.411100514,34535609.41013851,49
+40,5.22095046043396,1.0285585291582338,0.0028002262115478516,0.0007476910795975226,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-8874259.023459831,-8790699.266567664,-8954894.128731914,-8723156.898736734,-8682628.614650086,-8805127.586429246,99138.83287690407,13
+41,5.753167057037354,2.6916387336354273,0.002210187911987305,0.0003945696358936598,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(10, 5, 3)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (10, 5, 3), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8891690.5404542,-99117312.79910353,-8948706.75809295,-8791261.932474066,-8741547.368729021,-26898103.87977075,36109677.88545138,52
+42,3.825434160232544,1.2863744989429071,0.0023999691009521486,0.0004899406176931024,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8869217.838088185,-7899639.662539637,-8602940.840107495,-8726932.590043189,-8687937.643265286,-8557333.714808758,339921.85785295744,9
+43,5.60341157913208,1.1747441436736168,0.002800464630126953,0.0007494781531328211,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-8960508.345646996,-8835666.189405244,-8957843.406045428,-8792373.256883977,-8744946.755391587,-8858267.590674648,87250.23009525995,20
+44,9.363213348388673,3.4604597624490405,0.002999019622802734,0.0006329422526263491,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8551546.137183515,-8795186.880758114,-8214596.150337758,-7947479.785332613,-7821407.28488935,-8266043.247700269,364234.9535990274,3
+45,6.061357259750366,0.8134793412332963,0.003007173538208008,0.0006321773536274858,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-8887970.736948332,-8838348.882014835,-8956951.38024278,-8795352.455851585,-8741801.027973538,-8844084.896606214,74208.56087915933,17
+46,6.664032888412476,3.476006708681971,0.0033721923828125,0.0004269071707772774,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-7862506.2850832185,-8784881.14779692,-8947576.441692477,-8741370.990819694,-7831521.501267172,-8433571.273331895,483929.69653251005,4
+47,6.0790080547332765,2.853355904825357,0.00319366455078125,0.0007487181355417267,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(20, 10, 5)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (20, 10, 5), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8892586.35725452,-99108599.52932118,-8943390.273022339,-8794930.50973639,-8750185.707671382,-26897938.475401163,36105395.45225251,51
+48,5.102827787399292,2.758086488435163,0.006207132339477539,0.0009877190507482554,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",10,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 10, 'scaler': StandardScaler()}",-8426675.916259402,-8783006.036495665,-8609550.426109739,-8729377.166332167,-95243730.49617311,-25958468.00827402,34642847.28030109,48
+49,6.305741500854492,0.7512578832959643,0.004725503921508789,0.0012067072023561186,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",10,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 10, 'scaler': MinMaxScaler()}",-8911810.779570136,-8837563.216660403,-8956573.592315266,-8804789.830069259,-8736392.24455739,-8849425.932634491,77823.14620350198,18
+50,7.5463110446929935,2.8517758107962186,0.005217504501342773,0.0011768895789972496,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",20,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 20, 'scaler': StandardScaler()}",-8587044.944817143,-8769098.061540492,-8944678.501251359,-8719240.91634128,-7869146.457372897,-8577841.776264634,372417.94253268396,11
+51,5.589580345153808,5.320056399103632,0.0032015323638916017,0.0009814092801265107,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",20,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 20, 'scaler': MinMaxScaler()}",-8888222.917916901,-7975809.183354626,-8948121.20268478,-91916215.12521508,-95256867.15685914,-42597047.11720611,41647574.09449618,53
+52,8.030294513702392,7.604297743398255,0.0025942325592041016,0.0004831596594787445,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",30,StandardScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 30, 'scaler': StandardScaler()}",-7777734.266958293,-7798872.4434270365,-94730306.12752546,-8719765.210004132,-8683833.64166603,-25542102.33791619,34596516.51123784,47
+53,5.111953449249268,2.3084168861415724,0.003598928451538086,0.001017921616432611,"MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30)","(30, 15, 5)",30,MinMaxScaler(),"{'model': MLPRegressor(early_stopping=True, hidden_layer_sizes=(20, 10), max_iter=10000,
+             n_iter_no_change=30), 'model__hidden_layer_sizes': (30, 15, 5), 'model__n_iter_no_change': 30, 'scaler': MinMaxScaler()}",-8893295.811486067,-99109448.04946478,-8945642.112573555,-8786930.635136086,-8742784.702582201,-26895620.262248535,36106986.591942094,50
